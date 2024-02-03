@@ -184,8 +184,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #00a794 !important;
-  border-color: #00a794 !important;
+  background-color: #088486 !important;
+  border-color: #088486 !important;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -194,15 +194,15 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: inherit;
-  background-color: #00dac1 !important;
-  border-color: #00dac1 !important;
+  background-color: #0bb3b6 !important;
+  border-color: #0bb3b6 !important;
   box-shadow: none;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #00dac1 !important;
-  border-color: #00dac1 !important;
+  background-color: #0bb3b6 !important;
+  border-color: #0bb3b6 !important;
 }
 .btn-info,
 .btn-info:active {
@@ -360,23 +360,23 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background-color: transparent !important;
-  border-color: #00a794;
-  color: #00a794;
+  border-color: #088486;
+  color: #088486;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
-  color: #005047 !important;
+  color: #033334 !important;
   background-color: transparent !important;
-  border-color: #005047 !important;
+  border-color: #033334 !important;
   box-shadow: none !important;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #00a794 !important;
-  border-color: #00a794 !important;
+  background-color: #088486 !important;
+  border-color: #088486 !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -508,7 +508,7 @@ body {
   color: #7413dc !important;
 }
 .text-secondary {
-  color: #00a794 !important;
+  color: #088486 !important;
 }
 .text-success {
   color: #3a341c !important;
@@ -536,7 +536,7 @@ a.text-primary.active {
 a.text-secondary:hover,
 a.text-secondary:focus,
 a.text-secondary.active {
-  color: #00413a !important;
+  color: #022526 !important;
 }
 a.text-success:hover,
 a.text-success:focus,
@@ -636,8 +636,8 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Inter Tight', sans-serif;
@@ -714,7 +714,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #ffffff !important;
-  background: #00a794 !important;
+  background: #088486 !important;
   box-shadow: none !important;
 }
 .lazy-bg {
