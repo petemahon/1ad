@@ -55,7 +55,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/nccr6mhk-400x400-128x128.png",
-    "mbrsiteDomain": "klhmbrslhv",
+    "mbrsiteDomain": "3qi0cr6j43",
     "usedWebp": true,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -67,7 +67,8 @@
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "witsec-white-label": true
   },
   "pages": {
     "index.html": {
@@ -1169,7 +1170,9 @@
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+              "padding-bottom": "(@paddingBottom * 15px)",
+              "padding-right": "50px",
+              "padding-left": "50px"
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
