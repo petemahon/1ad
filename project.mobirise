@@ -54,21 +54,22 @@
     "versionPublish": "5.9.13",
     "imageResize": true,
     "chatbutton": {},
-    "favicon": "@PROJECT_PATH@/assets/images/nccr6mhk-400x400-128x128.png",
-    "mbrsiteDomain": "3qi0cr6j43",
+    "favicon": "@PROJECT_PATH@/assets/images/fleur-de-lis-marque-purple-png-128x117.png",
+    "mbrsiteDomain": "gos5t0q5wb",
     "usedWebp": true,
     "cssOptimize": false,
     "lazyLoad": false,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://adscouts.org",
     "pwa-switcher": false,
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
